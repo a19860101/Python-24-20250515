@@ -19,7 +19,7 @@ else:
 
 # 3.10後
 
-s = 123
+s = 0
 
 match s:
     case 0:
