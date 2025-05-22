@@ -12,3 +12,8 @@ while len(result) < 7:
 
 # result.sort()
 print(result)
+
+spe = result[-1]
+com = result[:-1]
+print('大樂透第xx期')
+print(f'電腦選號號碼為:{com}，特別號為{spe}')
