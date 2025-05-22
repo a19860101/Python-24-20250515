@@ -15,5 +15,8 @@ print(result)
 
 spe = result[-1]
 com = result[:-1]
+com = ','.join(str(c) for c in com)
+print(com)
+
 print('大樂透第xx期')
 print(f'電腦選號號碼為:{com}，特別號為{spe}')
