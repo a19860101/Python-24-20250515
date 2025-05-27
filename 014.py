@@ -6,8 +6,20 @@ user = {
     'name': 'John',
     'email': 'asdf@gmail.com'
 }
+print(user)
+# 新增、修改
+# user['active'] = True
+# user['name'] = 'Max'
+# user.setdefault('name', 'Max')
 
-# print(user)
+# 移除資料
+# user.pop('name')
+# del user['name']
+
+# 清空資料
+user.clear()
+print(user)
+
 # print(user['key'])
 # print(user['鍵'])
 # print(user['name'])
@@ -50,7 +62,7 @@ users = [
 #     print(user['name'])
 #     print(user['email'])
 
-for user in users:
-    for k,v in user.items():
-        print(f'{k}:{v}')
-    print('--------------------------------------')
+# for user in users:
+#     for k,v in user.items():
+#         print(f'{k}:{v}')
+#     print('--------------------------------------')
