@@ -17,8 +17,12 @@ print(user)
 # del user['name']
 
 # 清空資料
-user.clear()
-print(user)
+# user.clear()
+# print(user)
+
+print('email' in user)
+print('address' in user)
+
 
 # print(user['key'])
 # print(user['鍵'])
@@ -66,3 +70,7 @@ users = [
 #     for k,v in user.items():
 #         print(f'{k}:{v}')
 #     print('--------------------------------------')
+
+ls = ['apple', 'banana']
+print('apple' in ls)
+print('cat' in ls)
