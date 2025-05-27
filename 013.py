@@ -32,17 +32,31 @@ print(s)
 # print(s.index('H'))
 # print(s.index('h'))
 # print(s.index('x'))
-print(s.index('EL'))
-print(s.index('tH'))
+# print(s.index('EL'))
+# print(s.index('tH'))
 
 # find() 取得字串索引值，找不到回傳-1
 # print(s.find('H'))
 # print(s.find('h'))
 # print(s.find('x'))
-print(s.find('EL'))
-print(s.find('tH'))
+# print(s.find('EL'))
+# print(s.find('tH'))
 
+# split() 字串轉列表
+# print(s.split())
+ss = 'qwer terh eqrwwer zcxbzxcb asdf asdf'
+# print(ss.split())
+sss = '1234_5678_9012_1357'
+# print(sss.split('_'))
 
+# strip() 去除空白
+msg = ' hello '
+# print(msg.strip())
+
+# replace()取代文字
+greeting = 'hello John'
+# print(greeting.replace('John', 'Mary'))
+print(greeting.replace('hello', 'Aloha!!'))
 # date = '2025-05-19 17:25:08'
 # print(date[:10])
 # print(date[11:])
